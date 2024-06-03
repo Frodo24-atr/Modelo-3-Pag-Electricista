@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">           
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="shortcut icon" href="2.png" type="image/x-icon" />
+    <title>Mantenimientos del Hogar</title>
+  </head>
+  <body class="light-mode">
+    <header class="header">
+      <a href="#" class="logo-home">
+        <img src="icono-presentacion.png" alt="Logo" class="logo">
+      </a>
+      <nav class="navbar">
+        <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu">
+        <ul class="navbar-list">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#about">Servicios</a></li>
+          <li><a href="#galeria">Galeria de Trabajos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li>
+            <button id="theme-toggle" aria-label="Toggle Theme">
+              <img src="MODO CLARO-OSCURO/night-mode.png" alt="Dark Mode Icon" id="dark-mode-icon">
+              <img src="MODO CLARO-OSCURO/brightness.png" alt="Light Mode Icon" id="light-mode-icon" class="hidden">
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="hero">
+        <div class="hero-div1">
+          <div class="hero-title">
+            <h1>Mantenimiento del Hogar</h1>
+          </div>
+          <div class="hero-btns-container">
+            <div class="hero-btn">
+              <a href="#cards" aria-label="Ir a Servicios">SERVICIOS</a>
+            </div>
+            <div class="hero-btn">
+              <a href="https://walink.co/1a6318" aria-label="whatsapp">WHATSAPP</a>
+            </div>
+            <div class="hero-btn">
+              <a href="https://aaieric.org.ar/costos-mano-de-obra" aria-label="Presupuestos">PRESUPUESTO</a>
+            </div>
+          </div>          
+        </div>
+      </section>
+      <section id="about">
+        <p class="about__p">
+          <span class="about__span">MdH:</span> Tu seguridad y tranquilidad son nuestra prioridad,
+           por eso, en MdH nos encargamos de que cada trabajo 
+           realizado este a la altura de tus nececidades.
+
+        </p>
+        <p class="about__p">
+          Nuestro equipo de técnicos altamente calificados se especializa en
+          resolver cada una de las situaciones con las que nos encontremos
+          en su vivienda asegurando asi el bienestar de su familia.
+        </p>
+      </section>
+      <section id="cards">
+        <h2 class="cards__title">Servicios</h2>
+        <div class="carousel">
+          <div class="cards-container">
+            <div class="card">
+              <img src="IMAGENES-SERVICIOS/electricistas.jpg" alt="">
+              <img src="IMAGENES-SERVICIOS/electricistas-black.jpg" alt="dark.mode">
+              <div class="card-content">
+                <h3>Tendido Electrico</h3>
+                <p>Realizamos el tendido electrico para la alimentacion de todo su hogar, incluyendo tomacorrientes, iluminacion, su ambiente de trabajo, etc.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="IMAGENES-SERVICIOS/muebles.jpg" alt="">
+              <img src="IMAGENES-SERVICIOS/muebles-black.jpg" alt="dark.mode">
+              <div class="card-content">
+                <h3>Instalacion y armado de Muebles</h3>
+                <p>Nos encargamos de la instalacion y el armado de muebles para su hogar, oficina o comercio.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="IMAGENES-SERVICIOS/pintura.jpg" alt="">
+              <img src="IMAGENES-SERVICIOS/pintura-black.jpg" alt="dark.mode">
+              <div class="card-content">
+                <h3>Pintura de interiores</h3>
+                <p>Realizamos trabajos de pintura en interiores, tanto en paredes como en techos, con la mejor calidad y terminacion.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="IMAGENES-SERVICIOS/tablero electrico.jpg" alt="">
+              <img src="IMAGENES-SERVICIOS/tablero electrico-black.jpg" alt="dark.mode">
+              <div class="card-content">
+                <h3>Armado de tableros electricos</h3>
+                <p>Realizamos el armado e instalacion de su tablero domiciliario, asegurando la seguridad de su hogar.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="IMAGENES-SERVICIOS/electrodomesticos.jpg" alt="">
+              <img src="IMAGENES-SERVICIOS/electrodomesticos-black.jpg" alt="dark.mode">
+              <div class="card-content">
+                <h3>Seguridad para sus Electrodomesticos</h3>
+                <p>Todas las instalaciones electricas que realizamos cuentan con la seguridad y calidad necesaria para el correcto funcionamiento de sus electrodomesticos.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="IMAGENES-SERVICIOS/normativas.jpg" alt="">
+              <img src="IMAGENES-SERVICIOS/normativas-black.jpg" alt="dark.mode">
+              <div class="card-content">
+                <h3>Normativas ISO e IRAM</h3>
+                <p>Trabajamos solo con materiales de primera calidad, cumpliendo con todas las normativas vigentes asegurando un estandar de calidad y seguridad.</p>
+              </div>
+            </div>
+          </div>
+        </div>      
+      </section>
+      <section id="galeria">
+        <h2 class="galeria_tittle">Galería de trabajos</h2>
+        <div class="galery-container">
+            <div class="carousel-container">
+                <button class="carousel-button left">&lt;</button>
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="IMAGENES-GALERIA/1.webp" alt="Imagen 1">
+                        <img src="IMAGENES-GALERIA/2.webp" alt="Imagen 2">
+                        <img src="IMAGENES-GALERIA/3.webp" alt="Imagen 3">
+                        <img src="IMAGENES-GALERIA/4.webp" alt="Imagen 4">
+                        <img src="IMAGENES-GALERIA/5.webp" alt="Imagen 5">
+                        <img src="IMAGENES-GALERIA/6.webp" alt="Imagen 6">
+                        <img src="IMAGENES-GALERIA/7.webp" alt="Imagen 7">
+                        <img src="IMAGENES-GALERIA/8.webp" alt="Imagen 8">
+                        <img src="IMAGENES-GALERIA/9.webp" alt="Imagen 9">
+                        <img src="IMAGENES-GALERIA/10.webp" alt="Imagen 10">
+                    </div>
+                </div>
+                <button class="carousel-button right">&gt;</button>
+            </div>
+        </div>
+    </section>
+    
+      <section id="contact">
+        <div class="contact-us">
+          <h2>Directorio</h2>
+          <div class="sucursales">
+            <div class="sucursal sucursal1">
+              <ul class="sucursales__ul">
+                <li>
+                  <img
+                    class="icon_li"
+                    src="./iconos directorio/maps-and-flags.png" alt="Direccion"/>
+                  San Francisco Solano, Quilmes.
+                </li>
+                <li>
+                  <img class="icon_li" src="./iconos directorio/email.png" alt="Email" />
+                  Gmail:
+                  <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMTDrMthXvrrJJXhwGMGXrXztdsQZlJJlJzDRLpZwzqzmWtXBPwXnbBrxsRfmpWlZWbGSH">emafran2015@gmail.com</a>
+                </li>
+                <li>
+                  <img
+                    class="icon_li"
+                    src="./iconos directorio/telephone.png"
+                    alt="Celular"
+                  />
+                  +54 9 11 5097-7425
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="social">
+            <a href="https://www.facebook.com/franco.martinez.58118774" target="_blank"><img
+                src="./iconos redes sociales/facebook.png"
+                alt="Icono de facebook"
+            /></a>
+            <a href="https://www.instagram.com/p/CyJp1UvPH9o/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank"
+              ><img src="./iconos redes sociales/instagram.png" alt="Icono de instagram"
+            /></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"
+              ><img src="./iconos redes sociales/twitter.png" alt="Icono de twitter"
+            /></a>
+            <a href="https://walink.co/1a6318">
+              <img src="iconos redes sociales/whatsapp.png" alt="_blank">
+            </a>
+          </div>
+        </div>
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31179.588808238714!2d-58.32835614344325!3d-34.77194921646577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32c65dac2c659%3A0xb95b765d35e8378d!2sSan%20Francisco%20Solano%2C%20Buenos%20Aires%20Province!5e0!3m2!1sen!2sar!4v1716010299543!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img src="icono-presentacion.png" alt="Logo "/>
+      <span>Desarrollador: Franco Emanuel Martinez, 2024</span>
+    </footer>
+    <script src="index.js"></script> 
+  </body>
+</html>
