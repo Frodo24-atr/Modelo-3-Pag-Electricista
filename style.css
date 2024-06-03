@@ -8,10 +8,10 @@
 
 
 :root {
-  --background-image-light: url(12.jpg); /* Imagen de fondo */
-  --background-image-dark: url(13.jpg); /* Imagen de fondo */
-  --text-color-light: #323232; /* Color de texto en modo claro */
-  --text-color-dark: #ffffff; /* Color de texto en modo oscuro */
+  --background-image-light: url(12.jpg);
+  --background-image-dark: url(13.jpg);
+  --text-color-light: #323232; 
+  --text-color-dark: #ffffff;
 }
 
 .light-mode {
@@ -36,7 +36,7 @@ body.dark-mode {
   background-position: center;
   background-size: cover;
   color: #c6c2c2;
-  margin: 0; /* Eliminamos el margen */
+  margin: 0;
 }
 
 .hidden {
@@ -75,6 +75,13 @@ header {
 .navbar i {
   font-size: 36px;
   display: none;
+}
+
+.navbar ul {
+  display: none;
+}
+.navbar input[type="checkbox"]:checked ~ ul {
+  display: block;
 }
 
 #toggle-menu {
