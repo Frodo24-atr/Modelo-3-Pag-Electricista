@@ -77,9 +77,6 @@ header {
   display: none;
 }
 
-.navbar ul {
-  display: none;
-}
 .navbar input[type="checkbox"]:checked ~ ul {
   display: block;
 }
