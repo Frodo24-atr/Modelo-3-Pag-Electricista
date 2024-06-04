@@ -127,9 +127,12 @@
     }
   
     .about__p {
+      background-color: #3737375c;
+      border-radius: 30px;
       width: 100%;
       margin: auto;
-      font-size: 1rem;
+      font-size: 20px;
+      color: white;
     }
   
     .about__span {
@@ -421,11 +424,14 @@
     }
   
     .about__p {
+      background-color: #3737375c;
+      border-radius: 30px;
       width: 100%;
       margin: auto;
-      font-size: 1rem;
+      font-size: 20px;
+      color: white;
     }
-  
+    
     .about__span {
       font-weight: 600;
       font-size: 1rem;
