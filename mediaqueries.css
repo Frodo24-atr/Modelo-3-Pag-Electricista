@@ -312,6 +312,7 @@
       justify-content: space-between;
       align-items: center;
       background: #0000002d;
+      -webkit-backdrop-filter: blur(15px);
       backdrop-filter: blur(15px);
       color: rgb(255, 255, 255);
       position: fixed;
@@ -401,6 +402,7 @@
       width: 280px;
       height: 200px;
       background: transparent;
+      -webkit-backdrop-filter: blur(15px);
       backdrop-filter: blur(15px);
       border-radius: 10%;
       box-shadow: none;
