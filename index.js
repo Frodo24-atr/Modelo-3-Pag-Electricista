@@ -167,6 +167,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setInterval(nextImage, 3000); // Desplazamiento automático cada 3 segundos
 });
-
-
-  

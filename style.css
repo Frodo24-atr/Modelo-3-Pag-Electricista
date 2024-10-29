@@ -50,6 +50,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: var(--background-color-dark);
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   color: var(--text-color);
   position: fixed;
@@ -147,7 +148,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 180px;
+  margin-top: 10rem;
   flex-wrap: wrap;
 }
 
@@ -179,6 +180,7 @@ body.light-mode .hero-title h1 {
   border: 2px rgba(255, 255, 255, 0.832);
   color: rgb(240 240 240);
   padding: 8px 15px;
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   border-radius: 50px;
 }
@@ -304,6 +306,7 @@ span {
 }
 
 .about__p {
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(17px);
   border-radius: 30px;
   width: 100%;
@@ -554,6 +557,7 @@ font-family: "Quicksand", sans-serif;
   font-family: "Quicksand", sans-serif;
   font-size: 30px;
   color: rgb(255, 255, 255);
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   border-radius: 30px;
   padding: 5px;
